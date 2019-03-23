@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17638" started-at="2019-03-22T22:46:20Z" finished-at="2019-03-22T22:46:38Z">
+  <suite name="Default suite" duration-ms="22360" started-at="2019-03-23T12:51:22Z" finished-at="2019-03-23T12:51:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17638" started-at="2019-03-22T22:46:20Z" finished-at="2019-03-22T22:46:38Z">
+    <test name="Default test" duration-ms="22360" started-at="2019-03-23T12:51:22Z" finished-at="2019-03-23T12:51:44Z">
       <class name="com.festicket.qa.TestCases.HomepageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.festicket.qa.TestCases.HomepageTest@20e2cbe0]" name="setUp" is-config="true" duration-ms="12282" started-at="2019-03-22T22:46:20Z" finished-at="2019-03-22T22:46:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.festicket.qa.TestCases.HomepageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="13597" started-at="2019-03-23T12:51:22Z" finished-at="2019-03-23T12:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCorrectUser()[pri:0, instance:com.festicket.qa.TestCases.HomepageTest@20e2cbe0]" name="verifyCorrectUser" duration-ms="2506" started-at="2019-03-22T22:46:32Z" finished-at="2019-03-22T22:46:35Z">
+        <test-method status="PASS" signature="verifyCorrectUser()[pri:0, instance:com.festicket.qa.TestCases.HomepageTest@2a2d45ba]" name="verifyCorrectUser" duration-ms="8736" started-at="2019-03-23T12:51:36Z" finished-at="2019-03-23T12:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.festicket.qa.TestCases.HomepageTest@20e2cbe0]" name="tearDown" is-config="true" duration-ms="2825" started-at="2019-03-22T22:46:35Z" finished-at="2019-03-22T22:46:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.festicket.qa.TestCases.HomepageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-23T12:51:44Z" finished-at="2019-03-23T12:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

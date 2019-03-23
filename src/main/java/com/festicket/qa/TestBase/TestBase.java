@@ -34,7 +34,6 @@ public class TestBase {
 	        if (browserName.equalsIgnoreCase("chrome")) {
 	            System.setProperty("webdriver.chrome.driver", "C:/Users/Sony/workspace/FesticketTest/Drivers/ChromeDriver/chromedriver.exe");
 	            driver = (WebDriver) new ChromeDriver();
-
 	        
 	        }
 
