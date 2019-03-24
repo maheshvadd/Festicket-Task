@@ -14,11 +14,12 @@ import com.qa.festicket.TestUtil.TestUtil;
 public class TestBase {
 	    public static WebDriver driver;
 	    public static Properties prop;
+	    public static String projectpath = System.getProperty("user.dir");
 
 	    public TestBase() {
 	        try {
 	            prop = new Properties();
-	            FileInputStream fis = new FileInputStream("C:/Users/Sony/workspace/FesticketTest/src/main/java/com/festicket/qa/config/config.properties");
+	            FileInputStream fis = new FileInputStream(projectpath + "//src/main/java/com/festicket/qa/config/config.properties");
 	            prop.load(fis);
 
 	        } catch (FileNotFoundException e) {
@@ -32,9 +33,8 @@ public class TestBase {
 	    public static void intialization() {
 	        String browserName = prop.getProperty("browser");
 	        if (browserName.equalsIgnoreCase("chrome")) {
-	            System.setProperty("webdriver.chrome.driver", "C:/Users/Sony/workspace/FesticketTest/Drivers/ChromeDriver/chromedriver.exe");
-	            driver = (WebDriver) new ChromeDriver();
-	        
+	            System.setProperty("webdriver.chrome.driver", projectpath + "//Drivers/Chromedriver/chromedriver.exe");
+	            driver = (WebDriver) new ChromeDriver();	        
 	        }
 
 	        driver.manage().window().maximize();
